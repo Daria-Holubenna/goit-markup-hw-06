@@ -808,23 +808,13 @@ button {
     /* проверить ширину  */
 }
 
-.parent-soc-media {
-    text-align: center;
-    /* верхнее значение центрирует */
-}
-
-.subscribe-wripper {
-    text-align: center;
-    /* верхнее значение центрирует */
-}
-
 .title-footer {
     color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-
+    text-align: center;
     margin-bottom: 16px;
 
 }
@@ -918,9 +908,11 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+
     .container-footer {
         column-gap: 24px;
-        row-gap: 72px;
+        justify-content: start;
+        max-width: 552px;
     }
 
     .last-logo {
@@ -928,16 +920,11 @@ button {
     }
 
     .parent-descr {
-        width: 264px;
-        text-align: inherit;
+        max-width: 264px;
     }
 
-    .parent-soc-media {
-        text-align: inherit;
-    }
-
-    .subscribe-wripper {
-        text-align: inherit;
+    .title-footer {
+        text-align: left;
     }
 
     .subscribe {
@@ -947,4 +934,26 @@ button {
     .input-footer {
         width: 264px;
     }
+
+}
+
+@media screen and (min-width: 1158px) {
+    .footer-copyright {
+        padding: 100px 0;
+    }
+
+    .container-footer {
+        gap: 0;
+        max-width: 1158px;
+        align-items: baseline;
+    }
+
+    .parent-descr {
+        margin-right: 120px;
+    }
+
+    .subscribe-wripper {
+        margin-left: auto;
+    }
+
 }
