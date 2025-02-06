@@ -1,40 +1,24 @@
 /* футерсько-подвальне начало */
-.footer-copyright {
+
+/* .footer-copyright {
     padding: 100px 0;
-}
+} */
 
-.parent-descr {
+/* .parent-descr {
     margin-right: 120px;
-}
+} */
 
-.footer-descr {
-    width: 264px;
-}
-
-.social-icon-footer {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-
-.subscribe-wripper {
+/* .subscribe-wripper {
     margin-left: auto;
 }
 
 .subscribe {
     gap: 24px;
-}
+} */
 
-.input-footer {
+/* .input-footer {
     width: 264px;
-}
-
-.submit-footer .form-icon-footer {
-    fill: #FFFFFF;
-    margin-left: 16px;
-
-}
-
+} */
 
 
 /* modal window */
