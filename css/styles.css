@@ -411,7 +411,7 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    max-width: 1440px;
+    max-width: 320px;
     margin: 0 auto;
 }
 
@@ -466,6 +466,7 @@ button {
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url("../images/laptop-bg@2x.jpg");
+        max-width: 768px;
     }
 
     .main-title {
@@ -480,6 +481,7 @@ button {
 @media screen and (min-width: 1158px) {
     .main-theme {
         padding: 188px 0;
+        max-width: 1440px;
     }
 
     .main-title {
@@ -805,7 +807,6 @@ button {
     line-height: 150%;
     color: #f4f4fd;
     letter-spacing: 0.02em;
-    /* проверить ширину  */
 }
 
 .title-footer {
