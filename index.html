@@ -44,8 +44,74 @@
             </li>
           </ul>
         </address>
+        <button class="sandwich-btn" type="button" data-menu-open>
+          <svg class="sandwich-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-select_menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="select-menu" data-menu>
+        <div class="container cont-menu-mob">
+          <button class="close-btn" type="button" data-menu-close>
+            <svg class="icon-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="header-container-select">
+            <ul class="nav-link-select">
+              <li><a class="link-select" href="./index.html">Studio</a></li>
+              <li><a class="link-select" href="">Portfolio</a></li>
+              <li><a class="link-select" href="">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="contact-select">
+            <ul class="contact-list-select">
+              <li>
+                <a class="mail-phone" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="mail-phone" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="icon-card-list-select">
+            <li class="item-icon-select">
+              <a class="link-icon-select" href="">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-icon-select">
+              <a class="link-icon-select" href="">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-icon-select">
+              <a class="link-icon-select" href="">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-icon-select">
+              <a class="link-icon-select" href="">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
+
     <main>
       <section class="main-theme section">
         <div class="container order">
@@ -55,6 +121,7 @@
           </button>
         </div>
       </section>
+
       <section class="section-about-company section">
         <div class="container">
           <h2 class="visually-hidden">Information</h2>
@@ -110,6 +177,7 @@
           </ul>
         </div>
       </section>
+
       <section class="section-about-team section">
         <div class="container">
           <h2 class="section-name">Our Team</h2>
@@ -278,6 +346,7 @@
           </ul>
         </div>
       </section>
+
       <section class="section-portfolio section">
         <div class="container">
           <h2 class="section-name">Our Portfolio</h2>
@@ -388,6 +457,7 @@
         </div>
       </section>
     </main>
+
     <footer class="footer-copyright">
       <div class="container container-footer">
         <div class="parent-descr">
@@ -456,7 +526,7 @@
       </div>
     </footer>
 
-    <div class="modal-overlay" data-modal>
+    <!-- <div class="modal-overlay" data-modal>
       <div class="modal">
         <button class="close-btn" type="button" data-modal-close>
           <svg class="icon-close" width="8" height="8">
@@ -543,7 +613,8 @@
           <button class="submit-form" type="submit">Send</button>
         </form>
       </div>
-    </div>
-    <script src="./js/modal.js"></script>
+    </div> -->
+    <!-- <script src="./js/modal.js"></script>  -->
+    <script src="./js/menu.js"></script>
   </body>
 </html>
