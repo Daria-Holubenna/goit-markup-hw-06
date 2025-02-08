@@ -184,7 +184,8 @@
           <ul class="team-card">
             <li class="team-list-item">
               <img
-                src="./images/mark.jpg"
+                srcset="./images/team/mark-min.jpg x1, ./images/team/mark@2x-min.jpg 2x"
+                src="./images/team/mark-min.jpg"
                 alt="photo Mark Guerrero"
                 width="264"
               />
@@ -225,7 +226,12 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img src="./images/tom.jpg" alt="photo Tom Ford" width="264" />
+              <img
+                srcset="./images/team/tom-min x1, ./images/team/tom@2x-min.jpg 2x"
+                src="./images/team/tom-min.jpg"
+                alt="photo Tom Ford"
+                width="264"
+              />
               <div class="list-item-text">
                 <h3 class="team-name-title">Tom Ford</h3>
                 <p class="team-job">Frontend Developer</p>
@@ -263,7 +269,8 @@
             </li>
             <li class="team-list-item">
               <img
-                src="./images/camila.jpg"
+                srcset="./images/team/camila-min x1, ./images/team/camila@2x-min.jpg 2x"
+                src="./images/team/camila-min.jpg"
                 alt="photo Camila Garcia"
                 width="264"
               />
@@ -304,7 +311,8 @@
             </li>
             <li class="team-list-item">
               <img
-                src="./images/daniel.jpg"
+                srcset="./images/team/daniel-min x1, ./images/team/daniel@2x-min.jpg 2x"
+                src="./images/team/daniel-min.jpg"
                 alt="photo Daniel Wilson"
                 width="264"
               />
@@ -353,7 +361,38 @@
           <ul class="portfolio-card">
             <li class="card">
               <div class="box-overlay">
-                <img src="./images/app.jpg" alt="desing app" width="360" />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/potfolio/potfolio-desc-1-min.jpg    1x,
+                      ./images/potfolio/potfolio-desc-1@2x-min.jpg 2x
+                    "
+                  />
+
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/potfolio/porfolio-tab-1-min.jpg    1x,
+                      ./images/potfolio/porfolio-tab-1@2x-min.jpg 2x
+                    "
+                  />
+
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/potfolio/porfolio-mob-1-min.jpg   1x,
+                      ./images/potfolio/porfolio-mob-1@2-min.jpg 2x
+                    "
+                  />
+
+                  <img
+                    src="./images/potfolio/potfolio-desc-1-min.jpg "
+                    alt="desing app"
+                    width="360"
+                  />
+                </picture>
+
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
