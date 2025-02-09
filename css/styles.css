@@ -459,7 +459,7 @@ button {
         rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
-@media screen and (max-width: 767) and (min-device-pixel-ratio: 2),
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .main-theme {
